@@ -1,0 +1,17 @@
+# App
+spring.application.name=bloom-backend
+server.port=8080
+
+# PostgreSQL Database
+spring.datasource.url=jdbc:postgresql://localhost:5432/bloom_db
+spring.datasource.username=postgres
+spring.datasource.password=YOUR_PASSWORD_HERE
+
+# JPA / Hibernate
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+# JWT Secret
+jwt.secret=YOUR_JWT_SECRET_HERE
+jwt.expiration=86400000
